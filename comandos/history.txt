@@ -1,0 +1,159 @@
+    1  pwd
+    2  ls 
+    3  cls
+    4  clear
+    5  pwd
+    6  clear
+    7  mkdir Desktop/Proyecto1
+    8  rm Desktop/Proyecto1
+    9  rmdir Desktop/Proyecto1
+   10  mkdir -p project1/proyect2
+   11  ls project1
+   12  rm -rf project1/proyect2
+   13  ls project1
+   14  history
+   15  ls -al 
+   16  clear
+   17  cd Desktop
+   18  cd project1
+   19  ls
+   20  mkdir project1
+   21  cd project1
+   22  touch historia.txt
+   23  cat historia.txt
+   24  echo "Hola Mundo GIT" > historia.txt
+   25  cat historia.txt
+   26  cp historia.txt historiav1.txt
+   27  echo "Cambio1" > historiav1.txt
+   28  cd p
+   29  cd historiav1.txt
+   30  cat historia1.txt
+   31  cat historiav1.txt
+   32  ls -al
+   33  cat historiav1.txt
+   34  cp historia.txt historiav1.txt
+   35  cat historiav1.txt
+   36  cat "Cambio1" >>historiav1.txt
+   37  echo "Cambio1" >> historiav1.txt
+   38  cat historiav1.txt
+   39  code .
+   40  cp historiav1.txt historiav2.txt
+   41  ls
+   42  PROMPT_DIRTRIM=1
+   43  echo "Cambio2" >> historiav2.txt
+   44  cat historiav2.txt
+   45  code .
+   46  history > comandosGit.txt
+   47  rm -rf historia.txt historiav1.txt
+   48  code .
+   49  echo "Hola ahora si es Git" > historiav2.txt
+   50  mv historiav2.txt historia.txt
+   51  cat historia.txt
+   52  git init
+   53  ls
+   54  ls -a
+   55  ls .git/
+   56  ls -a .git/
+   57  ls .git/config
+   58  git status
+   59  git add historia.txt
+   60  git status
+   61  git add comandosGit.txt
+   62  git status
+   63  echo "cambio ahh" > historia.txt
+   64  git status
+   65  git restore historia.txt
+   66  git status
+   67  git commit "Initial files of project"
+   68  git commit -m "Initial files of project"
+   69  git config --global user.name "Vanessa"
+   70  git config --list --global
+   71  git config --global user.name "Vanessa Rubiera"
+   72  git status
+   73  echo "Ya inicie mis cambios en Git" >> history.txt
+   74  git status
+   75  git diff
+   76  git add history.txt
+   77  git status
+   78  git add historia.txt
+   79  git status
+   80  git status
+   81  git diff
+   82  git status
+   83  git log
+   84  git status
+   85  git add historia.txt
+   86  git commit -m "Agrege nuevos mensajitos al archivo"
+   87  git log
+   88  git log --oneline
+   89  git status
+   90  git add historia.txt
+   91  git status
+   92  git status
+   93  git add historia.txt
+   94  git status
+   95  git commit
+   96  git commit
+   97  git status
+   98  git log --oneline
+   99  code .
+  100  start .
+  101  git checkout fac3d87
+  102  git log --oneline
+  103  git checkout fac3d87
+  104  git status
+  105  git add historia.txt
+  106  git commit -m "Se agrego otro cambio jeje"
+  107  git log --oneline
+  108  git checkout fac3d87
+  109  git checkout master
+  110  git checkout main
+  111  git log --oneline
+  112  git diff fac3d87 6d26905
+  113  history > history.txt
+  114  pwd
+  115  ls -al
+  116  cd Desktop
+  117  ls -al
+  118  cd ComandosLinux/
+  119  ls -al
+  120  pwd
+  121  pwd /c/Users/kirit
+  122  ls /c/Users/kirit
+  123  cls
+  124  clear
+  125  ls -al
+  126  mkdir practica2Git
+  127  cd practica2Git
+  128  echo "# BERRAQUERA 2000" >> README.md
+  129  git init
+  130  git add README.md
+  131  git status
+  132  git commit -m "Primer commit # BERRAQUERA 2000"
+  133  git status
+  134  code README.md
+  135  cat README.md
+  136  echo "Creado por: Vanessa Rubiera" >> README.md
+  137  cat README.md
+  138  git status
+  139  git add README.md
+  140  git commit -m "Segundo commit - Creado por"
+  141  git status
+  142  cat README.md
+  143  git remote add main https://github.com/VanessaRubiera/berraquera2000.git
+  144  git push -u origin main
+  145  git push -u main main
+  146  echo "Fecha de creación: 14/Marzo/2023 📅" >> README.md
+  147  git add README.md
+  148  git commit -m "Tercer commit - Dato extra Fecha"
+  149  git push -u main main
+  150  history
+  151  history | mkdir comandos/history1.txt 
+  152  history | mkdir comandos >> history1.txt 
+  153  ls -al
+  154  cat history1.txt
+  155  rm history1.txt
+  156  ls -al
+  157  cd comandos
+  158  ls 
+  159  history >> history.txt
